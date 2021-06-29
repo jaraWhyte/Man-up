@@ -1,0 +1,160 @@
+.links {
+  text-align: right;
+  /* display: inline-block; */
+  /* margin-left: 82vw; */
+  /* padding-right: 20vw; */
+  margin-top: 10px;
+}
+
+.links:after {
+  clear: both;
+}
+
+.links > img {
+margin-left: 18px;
+margin-top: 5px;
+/* display: inline-block; */
+/* right: 5px; */
+/* margin: 100px; */
+}
+
+.links > a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.google-apps {
+  height: 17px;
+}
+
+.dp {
+height: 35px;
+width: 35px;
+border-radius: 50%;
+/* margin-top: 5px; */
+/* position: fixed; */
+top: 4px;
+}
+
+.img {
+  /* height: 20px; */
+  text-align: center;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 90px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.search-section {
+  display: inline-block;
+  justify-content: center;
+  align-content: space-between;
+  text-align: center;
+  margin: auto;
+  width: auto;
+  width: 50vw;
+  /* margin-top: 10px; */
+}
+
+.search-input {
+height: 40px;
+width: 40vw;
+border-radius: 25px;
+border-color: rgb(196, 187, 187);
+border-width: 1px;
+text-align: center;
+margin-top: 25px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mic {
+  width: 13px;
+  position: absolute;
+  right: 31vw;
+  margin-top: 35px;
+}
+
+.search {
+  color: rgb(197, 184, 184);
+  width: 30px;
+  position: absolute;
+  left: 31vw;
+  margin-top: 35px;
+}
+.btn-section {
+  /* text-align: center; */
+  margin-left: 110px;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: rgb(249, 249, 250);
+  border: none;
+  height: 35px;
+  width: 125px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.end {
+  margin-top: 30px;
+  text-indent: 70px;
+  text-align: center;
+}
+
+.end-note {
+  color: rgb(29, 29, 173);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247,247,247);
+  margin-top: 180px;
+  /* background-size: cover; */
+  width: 99.1vw;
+  align-content: space-around;
+}
+
+.ng {
+  /* background-color: rgb(202, 198, 198); */
+  color: gray;
+  border-bottom: 1px solid gray;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  height: 30px;
+}
+
+.bottom {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* padding-left: 15px; */
+}
+
+.one {
+ color: gray; 
+ display: flex;
+ flex-direction: row;
+ /* justify-content: space-evenly; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.two {
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
